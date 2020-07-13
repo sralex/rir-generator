@@ -7,4 +7,4 @@ pip install Cython
 pip install ./python
 ```
 
-This works well in linux :) enojoy
+This works well in linux :) enjoy
