@@ -19,7 +19,7 @@ extensions = [
 
 setup(
 	name = 'pyrirgen',
-	ata_files = [('', ['librirgen.so'])],
+	data_files = [('lib/', ['librirgen.so'])],
 	ext_modules=cythonize(extensions, compiler_directives = {
 		'language_level': 3, # Python 3
 		'embedsignature': True, # add method signature to docstrings, thus tools can display it after compilation
